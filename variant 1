@@ -1,0 +1,11 @@
+w = float(input("Введите ширину в футах\n"))
+l = float(input("Введите длину в футах\n"))
+result = (w*l)/43560
+print("Площадь в акрах", result)
+
+def skorost():
+    from math import sqrt
+    a = 9.8
+    d = float(input("Высота падения объекта в метрах"))
+    vf: float = sqrt(2*a*d)
+    print("Скорость объекта во время соприкосновения с землёй" % vf)
